@@ -5,8 +5,8 @@ var words = ['...'],
     len = words.length,
     forwards = true,
     skip_count = 0,
-    skip_delay = 15,
-    speed = 150;
+    skip_delay = 5,
+    speed = 120;
 
 var wordflick = function () {
     setInterval(function () {
@@ -77,4 +77,13 @@ function changeTo(name) {
 $(document).ready(function () {
   wordflick();
 //   changeTo("importance");
+  redirectToEDC();
 });
+
+function redirectToEDC() {
+  setTimeout(function() {
+    window.location.href = "https://edcnitd.co.in";
+  }, 3000); // 3000 milliseconds = 3 seconds
+}
+
+// Call the function to initiate the redirection
