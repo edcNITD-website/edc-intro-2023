@@ -73,6 +73,11 @@ function changeTo(name) {
   var btn = document.getElementById(name + '-btn');
   btn.classList.add('selected');
 }
+function redirectToEDC() {
+  setTimeout(function() {
+    window.location.href = "https://edcnitd.co.in";
+  }, 3000); // 3000 milliseconds = 3 seconds
+}
 
 $(document).ready(function () {
   wordflick();
@@ -80,10 +85,5 @@ $(document).ready(function () {
   redirectToEDC();
 });
 
-function redirectToEDC() {
-  setTimeout(function() {
-    window.location.href = "https://edcnitd.co.in";
-  }, 3000); // 3000 milliseconds = 3 seconds
-}
 
 // Call the function to initiate the redirection
