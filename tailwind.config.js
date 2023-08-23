@@ -4,7 +4,7 @@ module.exports = {
   theme: {extend: {
     fontFamily: {
       'ubuntu-mono': ["'Ubuntu Mono'",'mono','sans-serif'],
-      'fredrica': ["'Fredericka the Great'",'mono','sans-serif'],
+      'fredrica': ["'Koulen'",'mono','sans-serif'],
       'raleway': ["'Raleway'",'sans-serif'],
     }
   },
